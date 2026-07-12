@@ -1,0 +1,1296 @@
+{
+  "version": "v23",
+  "name": "V0Map Importable Team 50",
+  "description": "Importable 50-NPC voice-command team preset using approved WordPress shortcodes only.",
+  "teams": [
+    {
+      "name": "Leadership",
+      "npcIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "skills": [
+        "leadership",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "1": "Operator",
+        "2": "Guide",
+        "3": "Builder",
+        "4": "Closer",
+        "5": "Support"
+      }
+    },
+    {
+      "name": "Growth",
+      "npcIds": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "skills": [
+        "growth",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "6": "Creator",
+        "7": "Navigator",
+        "8": "Trainer",
+        "9": "Director",
+        "10": "Operator"
+      }
+    },
+    {
+      "name": "Operations",
+      "npcIds": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "skills": [
+        "operations",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "11": "Builder",
+        "12": "Closer",
+        "13": "Support",
+        "14": "Analyst",
+        "15": "Creator"
+      }
+    },
+    {
+      "name": "Community",
+      "npcIds": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "skills": [
+        "community",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "16": "Trainer",
+        "17": "Director",
+        "18": "Operator",
+        "19": "Guide",
+        "20": "Builder"
+      }
+    },
+    {
+      "name": "WordPress API",
+      "npcIds": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "skills": [
+        "wordpress-api",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "21": "Support",
+        "22": "Analyst",
+        "23": "Creator",
+        "24": "Navigator",
+        "25": "Trainer"
+      }
+    },
+    {
+      "name": "Voice Control",
+      "npcIds": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "skills": [
+        "voice-control",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "26": "Operator",
+        "27": "Guide",
+        "28": "Builder",
+        "29": "Closer",
+        "30": "Support"
+      }
+    },
+    {
+      "name": "Events",
+      "npcIds": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "skills": [
+        "events",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "31": "Creator",
+        "32": "Navigator",
+        "33": "Trainer",
+        "34": "Director",
+        "35": "Operator"
+      }
+    },
+    {
+      "name": "Affiliate",
+      "npcIds": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "skills": [
+        "affiliate",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "36": "Builder",
+        "37": "Closer",
+        "38": "Support",
+        "39": "Analyst",
+        "40": "Creator"
+      }
+    },
+    {
+      "name": "Membership",
+      "npcIds": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "skills": [
+        "membership",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "41": "Trainer",
+        "42": "Director",
+        "43": "Operator",
+        "44": "Guide",
+        "45": "Builder"
+      }
+    },
+    {
+      "name": "3D City",
+      "npcIds": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "skills": [
+        "3d-city",
+        "live-shortcodes",
+        "voice-control",
+        "wordpress-api"
+      ],
+      "roles": {
+        "46": "Support",
+        "47": "Analyst",
+        "48": "Creator",
+        "49": "Navigator",
+        "50": "Trainer"
+      }
+    }
+  ],
+  "npcs": [
+    {
+      "id": 1,
+      "name": "Brand GPT NPC 1",
+      "team": "Pinned Brand UI",
+      "role": "Operator",
+      "shortcodeTag": "bsp_app",
+      "shortcode": "[bsp_app]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 1 come here",
+        "open bsp_app",
+        "NPC 1 dance"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AISC Hub NPC 2",
+      "team": "AISC Community",
+      "role": "Guide",
+      "shortcodeTag": "aisc_hub",
+      "shortcode": "[aisc_hub]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 2 come here",
+        "open aisc_hub",
+        "NPC 2 dance"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AISC Missions NPC 3",
+      "team": "AISC Community",
+      "role": "Builder",
+      "shortcodeTag": "aisc_missions",
+      "shortcode": "[aisc_missions]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 3 come here",
+        "open aisc_missions",
+        "NPC 3 dance"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "AISC Channels NPC 4",
+      "team": "AISC Community",
+      "role": "Closer",
+      "shortcodeTag": "aisc_channels",
+      "shortcode": "[aisc_channels]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 4 come here",
+        "open aisc_channels",
+        "NPC 4 dance"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "AISC Tools NPC 5",
+      "team": "AISC Community",
+      "role": "Support",
+      "shortcodeTag": "aisc_tools",
+      "shortcode": "[aisc_tools]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 5 come here",
+        "open aisc_tools",
+        "NPC 5 dance"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "AISC Discussions NPC 6",
+      "team": "AISC Community",
+      "role": "Analyst",
+      "shortcodeTag": "aisc_discussions",
+      "shortcode": "[aisc_discussions]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 6 come here",
+        "open aisc_discussions",
+        "NPC 6 dance"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "AISC AI Guide NPC 7",
+      "team": "AISC Community",
+      "role": "Creator",
+      "shortcodeTag": "aisc_ai_guide",
+      "shortcode": "[aisc_ai_guide]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 7 come here",
+        "open aisc_ai_guide",
+        "NPC 7 dance"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "AISC Resources NPC 8",
+      "team": "AISC Community",
+      "role": "Navigator",
+      "shortcodeTag": "aisc_resources",
+      "shortcode": "[aisc_resources]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 8 come here",
+        "open aisc_resources",
+        "NPC 8 dance"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "AISC Leaderboard NPC 9",
+      "team": "AISC Community",
+      "role": "Trainer",
+      "shortcodeTag": "aisc_leaderboard",
+      "shortcode": "[aisc_leaderboard]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 9 come here",
+        "open aisc_leaderboard",
+        "NPC 9 dance"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "AISC Showcases NPC 10",
+      "team": "AISC Community",
+      "role": "Director",
+      "shortcodeTag": "aisc_showcases",
+      "shortcode": "[aisc_showcases]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 10 come here",
+        "open aisc_showcases",
+        "NPC 10 dance"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "AISC Events NPC 11",
+      "team": "AISC Community",
+      "role": "Operator",
+      "shortcodeTag": "aisc_events",
+      "shortcode": "[aisc_events]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 11 come here",
+        "open aisc_events",
+        "NPC 11 dance"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "AISC AI Arbitrage NPC 12",
+      "team": "AISC Community",
+      "role": "Guide",
+      "shortcodeTag": "aisc_ai_arbitrage",
+      "shortcode": "[aisc_ai_arbitrage]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 12 come here",
+        "open aisc_ai_arbitrage",
+        "NPC 12 dance"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "AISC Dashboard NPC 13",
+      "team": "AISC Community",
+      "role": "Builder",
+      "shortcodeTag": "aisc_dashboard",
+      "shortcode": "[aisc_dashboard]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 13 come here",
+        "open aisc_dashboard",
+        "NPC 13 dance"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "AISC Login NPC 14",
+      "team": "AISC Auth",
+      "role": "Closer",
+      "shortcodeTag": "aisc_login",
+      "shortcode": "[aisc_login]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 14 come here",
+        "open aisc_login",
+        "NPC 14 dance"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "AISC Register NPC 15",
+      "team": "AISC Auth",
+      "role": "Support",
+      "shortcodeTag": "aisc_register",
+      "shortcode": "[aisc_register]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 15 come here",
+        "open aisc_register",
+        "NPC 15 dance"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "AISC Forgot Password NPC 16",
+      "team": "AISC Auth",
+      "role": "Analyst",
+      "shortcodeTag": "aisc_forgot_password",
+      "shortcode": "[aisc_forgot_password]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 16 come here",
+        "open aisc_forgot_password",
+        "NPC 16 dance"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Agent Workflow Chat NPC 17",
+      "team": "Agent Workflow",
+      "role": "Creator",
+      "shortcodeTag": "agent_workflow_chat",
+      "shortcode": "[agent_workflow_chat]",
+      "floor": 0,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 17 come here",
+        "open agent_workflow_chat",
+        "NPC 17 dance"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Agent Workflow Form NPC 18",
+      "team": "Agent Workflow",
+      "role": "Navigator",
+      "shortcodeTag": "agent_workflow_form",
+      "shortcode": "[agent_workflow_form]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 18 come here",
+        "open agent_workflow_form",
+        "NPC 18 dance"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Agent Workflow Status NPC 19",
+      "team": "Agent Workflow",
+      "role": "Trainer",
+      "shortcodeTag": "agent_workflow_status",
+      "shortcode": "[agent_workflow_status]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 19 come here",
+        "open agent_workflow_status",
+        "NPC 19 dance"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Virtual Gallery Admin Page NPC 20",
+      "team": "Virtual Gallery",
+      "role": "Director",
+      "shortcodeTag": "vg_display_admin_page",
+      "shortcode": "[vg_display_admin_page]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 20 come here",
+        "open vg_display_admin_page",
+        "NPC 20 dance"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Virtual Gallery Logout Link NPC 21",
+      "team": "Virtual Gallery",
+      "role": "Operator",
+      "shortcodeTag": "vg_display_logout_link",
+      "shortcode": "[vg_display_logout_link]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 21 come here",
+        "open vg_display_logout_link",
+        "NPC 21 dance"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Virtual Gallery Logout URL NPC 22",
+      "team": "Virtual Gallery",
+      "role": "Guide",
+      "shortcodeTag": "vg_display_logout_url",
+      "shortcode": "[vg_display_logout_url]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 22 come here",
+        "open vg_display_logout_url",
+        "NPC 22 dance"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Virtual Gallery Login URL NPC 23",
+      "team": "Virtual Gallery",
+      "role": "Builder",
+      "shortcodeTag": "vg_display_login_url",
+      "shortcode": "[vg_display_login_url]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 23 come here",
+        "open vg_display_login_url",
+        "NPC 23 dance"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Virtual Gallery Edit Link NPC 24",
+      "team": "Virtual Gallery",
+      "role": "Closer",
+      "shortcodeTag": "vg_display_edit_link",
+      "shortcode": "[vg_display_edit_link]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 24 come here",
+        "open vg_display_edit_link",
+        "NPC 24 dance"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Virtual Gallery Edit URL NPC 25",
+      "team": "Virtual Gallery",
+      "role": "Support",
+      "shortcodeTag": "vg_display_edit_url",
+      "shortcode": "[vg_display_edit_url]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 25 come here",
+        "open vg_display_edit_url",
+        "NPC 25 dance"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Frontend Admin Login Form NPC 26",
+      "team": "WordPress Login",
+      "role": "Analyst",
+      "shortcodeTag": "wp_frontend_admin_login_form",
+      "shortcode": "[wp_frontend_admin_login_form]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 26 come here",
+        "open wp_frontend_admin_login_form",
+        "NPC 26 dance"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Download Now NPC 27",
+      "team": "Downloads",
+      "role": "Creator",
+      "shortcodeTag": "download_now",
+      "shortcode": "[download_now]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 27 come here",
+        "open download_now",
+        "NPC 27 dance"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Download Now Page NPC 28",
+      "team": "Downloads",
+      "role": "Navigator",
+      "shortcodeTag": "download_now_page",
+      "shortcode": "[download_now_page]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 28 come here",
+        "open download_now_page",
+        "NPC 28 dance"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "EM3D Dashboard Iframe NPC 29",
+      "team": "EntreMotivator 3D",
+      "role": "Trainer",
+      "shortcodeTag": "em3d_dashboard_iframe",
+      "shortcode": "[em3d_dashboard_iframe]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 29 come here",
+        "open em3d_dashboard_iframe",
+        "NPC 29 dance"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "EM3D Command Directory NPC 30",
+      "team": "EntreMotivator 3D",
+      "role": "Director",
+      "shortcodeTag": "em3d_command_directory",
+      "shortcode": "[em3d_command_directory]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 30 come here",
+        "open em3d_command_directory",
+        "NPC 30 dance"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "EM3D Operator Floor NPC 31",
+      "team": "EntreMotivator 3D",
+      "role": "Operator",
+      "shortcodeTag": "em3d_operator_floor",
+      "shortcode": "[em3d_operator_floor]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 31 come here",
+        "open em3d_operator_floor",
+        "NPC 31 dance"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "EM3D Command Room NPC 32",
+      "team": "EntreMotivator 3D",
+      "role": "Guide",
+      "shortcodeTag": "em3d_command_room",
+      "shortcode": "[em3d_command_room]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 32 come here",
+        "open em3d_command_room",
+        "NPC 32 dance"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Fluent Form NPC 33",
+      "team": "Forms",
+      "role": "Builder",
+      "shortcodeTag": "fluentform",
+      "shortcode": "[fluentform]",
+      "floor": 1,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 33 come here",
+        "open fluentform",
+        "NPC 33 dance"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Fluent Form Info NPC 34",
+      "team": "Forms",
+      "role": "Closer",
+      "shortcodeTag": "fluentform_info",
+      "shortcode": "[fluentform_info]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 34 come here",
+        "open fluentform_info",
+        "NPC 34 dance"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Fluent Forms Get NPC 35",
+      "team": "Forms",
+      "role": "Support",
+      "shortcodeTag": "ff_get",
+      "shortcode": "[ff_get]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 35 come here",
+        "open ff_get",
+        "NPC 35 dance"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Fluent Forms Entry NPC 36",
+      "team": "Forms",
+      "role": "Analyst",
+      "shortcodeTag": "ff_entry",
+      "shortcode": "[ff_entry]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 36 come here",
+        "open ff_entry",
+        "NPC 36 dance"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "GCVA Calendar NPC 37",
+      "team": "Calendar",
+      "role": "Creator",
+      "shortcodeTag": "gcva_calendar",
+      "shortcode": "[gcva_calendar]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 37 come here",
+        "open gcva_calendar",
+        "NPC 37 dance"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "GeoMap Pro NPC 38",
+      "team": "Maps",
+      "role": "Navigator",
+      "shortcodeTag": "geomap_pro",
+      "shortcode": "[geomap_pro]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 38 come here",
+        "open geomap_pro",
+        "NPC 38 dance"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "MintMRM NPC 39",
+      "team": "CRM Email",
+      "role": "Trainer",
+      "shortcodeTag": "mintmrm",
+      "shortcode": "[mintmrm]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 39 come here",
+        "open mintmrm",
+        "NPC 39 dance"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "MintMail Preview Page NPC 40",
+      "team": "CRM Email",
+      "role": "Director",
+      "shortcodeTag": "mintmail_preview_page",
+      "shortcode": "[mintmail_preview_page]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 40 come here",
+        "open mintmail_preview_page",
+        "NPC 40 dance"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Optin Confirmation NPC 41",
+      "team": "CRM Email",
+      "role": "Operator",
+      "shortcodeTag": "optin_confirmation",
+      "shortcode": "[optin_confirmation]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 41 come here",
+        "open optin_confirmation",
+        "NPC 41 dance"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Preference Page NPC 42",
+      "team": "CRM Email",
+      "role": "Guide",
+      "shortcodeTag": "preference_page",
+      "shortcode": "[preference_page]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 42 come here",
+        "open preference_page",
+        "NPC 42 dance"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Unsubscribe Confirmation NPC 43",
+      "team": "CRM Email",
+      "role": "Builder",
+      "shortcodeTag": "unsubscribe_confirmation",
+      "shortcode": "[unsubscribe_confirmation]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 43 come here",
+        "open unsubscribe_confirmation",
+        "NPC 43 dance"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "MEC Booking NPC 44",
+      "team": "Events",
+      "role": "Closer",
+      "shortcodeTag": "mec-booking",
+      "shortcode": "[mec-booking]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 44 come here",
+        "open mec-booking",
+        "NPC 44 dance"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "MEC Ticket Variations NPC 45",
+      "team": "Events",
+      "role": "Support",
+      "shortcodeTag": "mec-ticket-variations",
+      "shortcode": "[mec-ticket-variations]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 45 come here",
+        "open mec-ticket-variations",
+        "NPC 45 dance"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "MEC Daily Calendar NPC 46",
+      "team": "Events",
+      "role": "Analyst",
+      "shortcodeTag": "MEC_dc",
+      "shortcode": "[MEC_dc]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 46 come here",
+        "open MEC_dc",
+        "NPC 46 dance"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "MEC Frontend Form NPC 47",
+      "team": "Events",
+      "role": "Creator",
+      "shortcodeTag": "MEC_fes_form",
+      "shortcode": "[MEC_fes_form]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 47 come here",
+        "open MEC_fes_form",
+        "NPC 47 dance"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "MEC Frontend List NPC 48",
+      "team": "Events",
+      "role": "Navigator",
+      "shortcodeTag": "MEC_fes_list",
+      "shortcode": "[MEC_fes_list]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 48 come here",
+        "open MEC_fes_list",
+        "NPC 48 dance"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "MEC Hourly Schedule NPC 49",
+      "team": "Events",
+      "role": "Trainer",
+      "shortcodeTag": "mec-hourly-schedule",
+      "shortcode": "[mec-hourly-schedule]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 49 come here",
+        "open mec-hourly-schedule",
+        "NPC 49 dance"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "MEC Login NPC 50",
+      "team": "Events",
+      "role": "Director",
+      "shortcodeTag": "MEC_login",
+      "shortcode": "[MEC_login]",
+      "floor": 2,
+      "status": "Imported team preset",
+      "skills": [
+        "voice-summon",
+        "realistic-walk",
+        "dance",
+        "wp-window"
+      ],
+      "commands": [
+        "NPC 50 come here",
+        "open MEC_login",
+        "NPC 50 dance"
+      ]
+    }
+  ],
+  "voiceCommands": [
+    "import team 50",
+    "dance all",
+    "scatter NPCs",
+    "gather team",
+    "Brand GPT"
+  ]
+}

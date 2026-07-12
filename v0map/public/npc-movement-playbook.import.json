@@ -1,0 +1,13 @@
+{
+  "version": "25.0.0",
+  "title": "NPC Movement Playbook",
+  "moves": [
+    { "command": "NPC 1 come here", "action": "summon", "opensWindow": true },
+    { "command": "NPC 2 follow me", "action": "follow", "opensWindow": true },
+    { "command": "NPC 3 patrol route", "action": "patrol", "opensWindow": false },
+    { "command": "move NPC 4 forward", "action": "move", "direction": "forward" },
+    { "command": "send NPC 5 to project room", "action": "move", "target": "project-room" },
+    { "command": "dance all", "action": "dance", "target": "all" },
+    { "command": "freeze all NPCs", "action": "freeze", "target": "all" }
+  ]
+}

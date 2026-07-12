@@ -1,0 +1,29 @@
+{
+  "teams": [
+    {
+      "name": "Leadership",
+      "npcIds": [1, 5, 9, 13, 23],
+      "skills": ["strategy", "funding", "launch"],
+      "roles": {
+        "1": "Executive Lead",
+        "5": "Funding Lead",
+        "9": "Investor Lead"
+      }
+    },
+    {
+      "name": "Growth",
+      "npcIds": [2, 4, 11, 12, 14, 16, 21, 22],
+      "skills": ["content", "sales", "web"]
+    },
+    {
+      "name": "Operations",
+      "npcIds": [7, 10, 15, 18, 20, 24],
+      "skills": ["metrics", "health", "booking"]
+    },
+    {
+      "name": "Support",
+      "npcIds": [3, 6, 8, 17, 19],
+      "skills": ["coaching", "research", "voice"]
+    }
+  ]
+}

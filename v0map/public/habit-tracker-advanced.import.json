@@ -1,0 +1,12 @@
+{
+  "version": "25.0.0",
+  "title": "Advanced Voice City Habit Tracker",
+  "habits": [
+    { "id": "habit-ping", "name": "Run WordPress API ping", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-brand", "name": "Open Brand GPT styled shortcode window", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-command", "name": "Use one realtime voice command", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-dictate", "name": "Dictate one project note", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-move", "name": "Move or summon one NPC", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-city", "name": "Add or review one 3D city feature", "streak": 0, "target": 30, "doneToday": false }
+  ]
+}

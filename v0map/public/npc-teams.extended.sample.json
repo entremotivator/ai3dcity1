@@ -1,0 +1,98 @@
+{
+  "teams": [
+    {
+      "name": "Executive Command",
+      "npcIds": [1, 5, 9, 13, 23],
+      "skills": ["strategy", "capital", "planning", "launch"],
+      "roles": {
+        "1": "Chief Strategy Lead",
+        "5": "Funding and Grants Lead",
+        "9": "Investment Lead",
+        "13": "Business Plan Architect",
+        "23": "Launch Operator"
+      }
+    },
+    {
+      "name": "Marketing Studio",
+      "npcIds": [2, 4, 11, 12, 14, 16, 21, 22],
+      "skills": ["social media", "content", "web design", "sales", "real estate"],
+      "roles": {
+        "2": "Social Media Lead",
+        "4": "Content Lead",
+        "11": "Streamlit Builder",
+        "12": "Web Design Lead",
+        "14": "Ecommerce Lead",
+        "16": "Sales Closer",
+        "21": "Language Systems Lead",
+        "22": "Property Specialist"
+      }
+    },
+    {
+      "name": "Operations Desk",
+      "npcIds": [7, 10, 15, 18, 20, 24],
+      "skills": ["analytics", "news", "health", "invoicing", "booking"],
+      "roles": {
+        "7": "Metrics Analyst",
+        "10": "Newsroom Monitor",
+        "15": "Health Advisor",
+        "18": "Invoice Manager",
+        "20": "Medical Info Assistant",
+        "24": "Booking Coordinator"
+      }
+    },
+    {
+      "name": "Human Support",
+      "npcIds": [3, 6, 8, 17, 19],
+      "skills": ["mindset", "reflection", "research", "behavior", "voice"],
+      "roles": {
+        "3": "Mindset Coach",
+        "6": "Spiritual Guide",
+        "8": "Research Lead",
+        "17": "DISC Advisor",
+        "19": "Voice Clone Lead"
+      }
+    }
+  ],
+  "npcs": [
+    {
+      "id": 1,
+      "team": "Executive Command",
+      "role": "Chief Strategy Lead",
+      "skills": ["strategy", "decisions", "leadership"],
+      "floor": 0,
+      "status": "Ready for executive briefing"
+    },
+    {
+      "id": 2,
+      "team": "Marketing Studio",
+      "role": "Social Media Lead",
+      "skills": ["content calendar", "campaigns", "engagement"],
+      "floor": 0,
+      "status": "Monitoring audience growth"
+    },
+    {
+      "id": 7,
+      "team": "Operations Desk",
+      "role": "Metrics Analyst",
+      "skills": ["dashboards", "KPIs", "performance"],
+      "floor": 1,
+      "status": "Watching the metrics wall"
+    },
+    {
+      "id": 23,
+      "team": "Executive Command",
+      "role": "Launch Operator",
+      "skills": ["startup checklist", "launch sequence", "ops"],
+      "floor": 2,
+      "status": "Preparing launch plan"
+    },
+    {
+      "id": 24,
+      "team": "Operations Desk",
+      "role": "Booking Coordinator",
+      "skills": ["calendar", "appointments", "reservations"],
+      "floor": 3,
+      "status": "Available on rooftop"
+    }
+  ]
+}

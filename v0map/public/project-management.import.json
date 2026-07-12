@@ -1,0 +1,20 @@
+{
+  "name": "V0Map Voice City Project Board",
+  "version": "24.0",
+  "description": "Importable project management board for live WordPress shortcode/NPC city work.",
+  "tasks": [
+    { "id": "pm-connect-wp", "title": "Verify WordPress API ping, health, features, and shortcode windows", "status": "todo", "priority": "high" },
+    { "id": "pm-brand-gpt", "title": "Open pinned Brand GPT [bsp_app] and confirm full styling loads", "status": "todo", "priority": "high" },
+    { "id": "pm-voice-live", "title": "Turn on realtime voice agent and test command mode", "status": "todo", "priority": "high" },
+    { "id": "pm-dictation", "title": "Switch to dictation mode and capture one project note", "status": "todo", "priority": "normal" },
+    { "id": "pm-npc-summon", "title": "Say NPC 1 come here and verify window opens", "status": "todo", "priority": "normal" },
+    { "id": "pm-yuka", "title": "Add Yuka path node, project room, habit board, and task kanban to the 3D city", "status": "todo", "priority": "normal" },
+    { "id": "pm-team-import", "title": "Import 25/50/100 NPC team presets and assign floors", "status": "todo", "priority": "normal" },
+    { "id": "pm-window-control", "title": "Test next, previous, close, widescreen, and menu items below window", "status": "todo", "priority": "normal" }
+  ],
+  "habits": [
+    { "id": "pm-habit-api", "name": "Run WordPress API health check", "streak": 0, "target": 7, "doneToday": false },
+    { "id": "pm-habit-voice", "name": "Run one realtime voice NPC command", "streak": 0, "target": 7, "doneToday": false },
+    { "id": "pm-habit-project", "name": "Review project manager checklist", "streak": 0, "target": 7, "doneToday": false }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "25.0.0",
+  "title": "City Voice Command Center",
+  "wakeWord": "city",
+  "modes": ["command", "dictation"],
+  "commands": [
+    "Brand GPT",
+    "create NPC named Revenue Coach with shortcode aisc_dashboard",
+    "NPC 2 follow me",
+    "NPC 3 patrol route",
+    "freeze all NPCs",
+    "add automation lab",
+    "add project board",
+    "open project manager",
+    "export project board",
+    "dictation mode",
+    "command mode"
+  ]
+}

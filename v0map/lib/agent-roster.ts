@@ -1,0 +1,1359 @@
+export type AgentRosterItem = {
+  no: number
+  category: string
+  agent: string
+  title: string
+  primaryLink: string
+  shortcodes: string[]
+  tags: string[]
+  primaryTag: string
+  tabs: Array<{ title: string; tag: string; shortcode: string }>
+  dashboardShortcode?: string
+  dashboardTag?: string
+  shortcodeSource?: "provided" | "history" | "v0map-wrapper" | "none"
+}
+
+export const EXACT_AGENT_ROSTER: AgentRosterItem[] = [
+  {
+    "no": 1,
+    "category": "Operators",
+    "agent": "CRM HUB",
+    "title": "CRM HUB",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=matrix-crm-mobile-voice",
+    "shortcodes": [
+      "[matrix_crm_app]",
+      "[matrix_hub_manager]"
+    ],
+    "tags": [
+      "matrix_crm_app",
+      "matrix_hub_manager"
+    ],
+    "primaryTag": "matrix_crm_app",
+    "tabs": [
+      {
+        "title": "CRM HUB",
+        "tag": "matrix_crm_app",
+        "shortcode": "[matrix_crm_app]"
+      },
+      {
+        "title": "CRM HUB Tab 2",
+        "tag": "matrix_hub_manager",
+        "shortcode": "[matrix_hub_manager]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 2,
+    "category": "Operators",
+    "agent": "Ecom HUB",
+    "title": "Ecom HUB",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=evai-mobile-studio",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"2\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 3,
+    "category": "Operators",
+    "agent": "Community",
+    "title": "Community",
+    "primaryLink": "https://entremotivator.com/agents/operators/community",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"3\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 4,
+    "category": "Operators",
+    "agent": "AI TUBE - Video Manager",
+    "title": "AI TUBE - Video Manager",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aitube-dashboard",
+    "shortcodes": [
+      "[aitube_home]",
+      "[aitube_watch]",
+      "[aitube_upload]",
+      "[aitube_studio]",
+      "[aitube_channels]",
+      "[aitube_shorts]",
+      "[aitube_trending]",
+      "[aitube_search]",
+      "[aitube_library]",
+      "[aitube_playlists]",
+      "[aitube_tv]",
+      "[aitube_mobile_stream]",
+      "[aitube_video_grid limit=\"12\" type=\"short\"]"
+    ],
+    "tags": [
+      "aitube_home",
+      "aitube_watch",
+      "aitube_upload",
+      "aitube_studio",
+      "aitube_channels",
+      "aitube_shorts",
+      "aitube_trending",
+      "aitube_search",
+      "aitube_library",
+      "aitube_playlists",
+      "aitube_tv",
+      "aitube_mobile_stream",
+      "aitube_video_grid"
+    ],
+    "primaryTag": "aitube_home",
+    "tabs": [
+      {
+        "title": "AI TUBE - Video Manager",
+        "tag": "aitube_home",
+        "shortcode": "[aitube_home]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 2",
+        "tag": "aitube_watch",
+        "shortcode": "[aitube_watch]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 3",
+        "tag": "aitube_upload",
+        "shortcode": "[aitube_upload]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 4",
+        "tag": "aitube_studio",
+        "shortcode": "[aitube_studio]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 5",
+        "tag": "aitube_channels",
+        "shortcode": "[aitube_channels]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 6",
+        "tag": "aitube_shorts",
+        "shortcode": "[aitube_shorts]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 7",
+        "tag": "aitube_trending",
+        "shortcode": "[aitube_trending]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 8",
+        "tag": "aitube_search",
+        "shortcode": "[aitube_search]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 9",
+        "tag": "aitube_library",
+        "shortcode": "[aitube_library]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 10",
+        "tag": "aitube_playlists",
+        "shortcode": "[aitube_playlists]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 11",
+        "tag": "aitube_tv",
+        "shortcode": "[aitube_tv]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 12",
+        "tag": "aitube_mobile_stream",
+        "shortcode": "[aitube_mobile_stream]"
+      },
+      {
+        "title": "AI TUBE - Video Manager Tab 13",
+        "tag": "aitube_video_grid",
+        "shortcode": "[aitube_video_grid limit=\"12\" type=\"short\"]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 5,
+    "category": "Operators",
+    "agent": "Domains & Servers",
+    "title": "Domains & Servers",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=twentyi",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"5\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 6,
+    "category": "Operators",
+    "agent": "Habit Tracking Manager",
+    "title": "Habit Tracking Manager",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=habit-tracker-pro",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"6\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 7,
+    "category": "Operators",
+    "agent": "OS",
+    "title": "OS",
+    "primaryLink": "https://entremotivator.com/nexus-os-mobile/",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"7\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 8,
+    "category": "Managers",
+    "agent": "Calendar",
+    "title": "Calendar",
+    "primaryLink": "https://entremotivator.com/mobile-calendar-voice-admin/",
+    "shortcodes": [
+      "[gcva_calendar]"
+    ],
+    "tags": [
+      "gcva_calendar"
+    ],
+    "primaryTag": "gcva_calendar",
+    "tabs": [
+      {
+        "title": "Calendar",
+        "tag": "gcva_calendar",
+        "shortcode": "[gcva_calendar]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 9,
+    "category": "Managers",
+    "agent": "CRM",
+    "title": "CRM",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=matrix-crm-mobile-voice",
+    "shortcodes": [
+      "[matrix_crm_app]",
+      "[matrix_hub_manager]"
+    ],
+    "tags": [
+      "matrix_crm_app",
+      "matrix_hub_manager"
+    ],
+    "primaryTag": "matrix_crm_app",
+    "tabs": [
+      {
+        "title": "CRM",
+        "tag": "matrix_crm_app",
+        "shortcode": "[matrix_crm_app]"
+      },
+      {
+        "title": "CRM Tab 2",
+        "tag": "matrix_hub_manager",
+        "shortcode": "[matrix_hub_manager]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 10,
+    "category": "Managers",
+    "agent": "ECOM",
+    "title": "ECOM",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=evai-mobile-studio",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"10\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 11,
+    "category": "Managers",
+    "agent": "Projects",
+    "title": "Projects",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=pai-mobile",
+    "shortcodes": [
+      "[pai_projects]"
+    ],
+    "tags": [
+      "pai_projects"
+    ],
+    "primaryTag": "pai_projects",
+    "tabs": [
+      {
+        "title": "Projects",
+        "tag": "pai_projects",
+        "shortcode": "[pai_projects]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 12,
+    "category": "Managers",
+    "agent": "Social",
+    "title": "Social",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=social-ai-auto-v51-compose",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"12\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 13,
+    "category": "Managers",
+    "agent": "Email",
+    "title": "Email",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aism",
+    "shortcodes": [
+      "[aier_admin_dashboard]"
+    ],
+    "tags": [
+      "aier_admin_dashboard"
+    ],
+    "primaryTag": "aier_admin_dashboard",
+    "tabs": [
+      {
+        "title": "Email",
+        "tag": "aier_admin_dashboard",
+        "shortcode": "[aier_admin_dashboard]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 14,
+    "category": "Managers",
+    "agent": "Communications Sync",
+    "title": "Communications Sync",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=mobile-agent-command-hub-pages",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"14\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 15,
+    "category": "Managers",
+    "agent": "Ads",
+    "title": "Ads",
+    "primaryLink": "https://entremotivator.com/agents/managers/ads",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"15\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 16,
+    "category": "Managers",
+    "agent": "Brands",
+    "title": "Brands",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=brand-studio-mobile",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"16\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 17,
+    "category": "Managers",
+    "agent": "Reputation Management",
+    "title": "Reputation Management",
+    "primaryLink": "https://entremotivator.com/agents/managers/reputation-management",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"17\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 18,
+    "category": "Managers",
+    "agent": "SEO",
+    "title": "SEO",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=sapai4-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"18\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 19,
+    "category": "Content Creators",
+    "agent": "Context 1 Click",
+    "title": "Context 1 Click",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=fkbg-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"19\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 20,
+    "category": "Content Creators",
+    "agent": "Audio Studio",
+    "title": "Audio Studio",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=ai-audio-studios",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"20\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 21,
+    "category": "Content Creators",
+    "agent": "Images One Click",
+    "title": "Images One Click",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=fkbg-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"21\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 22,
+    "category": "Content Creators",
+    "agent": "Music",
+    "title": "Music",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=music-matrix",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"22\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 23,
+    "category": "Content Creators",
+    "agent": "Video Edit",
+    "title": "Video Edit",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=wp-video-editor",
+    "shortcodes": [
+      "[wpve_video_dashboard]"
+    ],
+    "tags": [
+      "wpve_video_dashboard"
+    ],
+    "primaryTag": "wpve_video_dashboard",
+    "tabs": [
+      {
+        "title": "Video Edit",
+        "tag": "wpve_video_dashboard",
+        "shortcode": "[wpve_video_dashboard]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 24,
+    "category": "Content Creators",
+    "agent": "Video Create",
+    "title": "Video Create",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=seedance-video-gen",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"24\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 25,
+    "category": "Content Creators",
+    "agent": "Social Posting",
+    "title": "Social Posting",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=social-ai-auto-v51-compose",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"25\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 26,
+    "category": "Content Creators",
+    "agent": "Video Recorder",
+    "title": "Video Recorder",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aitube-dashboard",
+    "shortcodes": [
+      "[aitube_home]",
+      "[aitube_upload]",
+      "[aitube_studio]",
+      "[aitube_video_grid limit=\"12\" type=\"short\"]"
+    ],
+    "tags": [
+      "aitube_home",
+      "aitube_upload",
+      "aitube_studio",
+      "aitube_video_grid"
+    ],
+    "primaryTag": "aitube_home",
+    "tabs": [
+      {
+        "title": "Video Recorder",
+        "tag": "aitube_home",
+        "shortcode": "[aitube_home]"
+      },
+      {
+        "title": "Video Recorder Tab 2",
+        "tag": "aitube_upload",
+        "shortcode": "[aitube_upload]"
+      },
+      {
+        "title": "Video Recorder Tab 3",
+        "tag": "aitube_studio",
+        "shortcode": "[aitube_studio]"
+      },
+      {
+        "title": "Video Recorder Tab 4",
+        "tag": "aitube_video_grid",
+        "shortcode": "[aitube_video_grid limit=\"12\" type=\"short\"]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 27,
+    "category": "Content Creators",
+    "agent": "Blogger",
+    "title": "Blogger",
+    "primaryLink": "https://entremotivator.com/agents/content-creators/blogger",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"27\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 28,
+    "category": "Content Creators",
+    "agent": "Contract and Docs",
+    "title": "Contract and Docs",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=ai-forms-plugin",
+    "shortcodes": [
+      "[aifp_library]",
+      "[aifp_template_library]",
+      "[ai_my_documents]",
+      "[aifp_user_account]"
+    ],
+    "tags": [
+      "aifp_library",
+      "aifp_template_library",
+      "ai_my_documents",
+      "aifp_user_account"
+    ],
+    "primaryTag": "aifp_library",
+    "tabs": [
+      {
+        "title": "Contract and Docs",
+        "tag": "aifp_library",
+        "shortcode": "[aifp_library]"
+      },
+      {
+        "title": "Contract and Docs Tab 2",
+        "tag": "aifp_template_library",
+        "shortcode": "[aifp_template_library]"
+      },
+      {
+        "title": "Contract and Docs Tab 3",
+        "tag": "ai_my_documents",
+        "shortcode": "[ai_my_documents]"
+      },
+      {
+        "title": "Contract and Docs Tab 4",
+        "tag": "aifp_user_account",
+        "shortcode": "[aifp_user_account]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 29,
+    "category": "Content Creators",
+    "agent": "Vibe Out",
+    "title": "Vibe Out",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=ipb-mobile-voice",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"29\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 30,
+    "category": "Personal Agents",
+    "agent": "Credit",
+    "title": "Credit",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [
+      "[cap_credit_ai_pro]"
+    ],
+    "tags": [
+      "cap_credit_ai_pro"
+    ],
+    "primaryTag": "cap_credit_ai_pro",
+    "tabs": [
+      {
+        "title": "Credit",
+        "tag": "cap_credit_ai_pro",
+        "shortcode": "[cap_credit_ai_pro]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 31,
+    "category": "Personal Agents",
+    "agent": "RE",
+    "title": "RE",
+    "primaryLink": "http://aiagentms.com/wp-admin/admin.php?page=reai-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"31\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 32,
+    "category": "Personal Agents",
+    "agent": "Med",
+    "title": "Med",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"32\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 33,
+    "category": "Personal Agents",
+    "agent": "Legal",
+    "title": "Legal",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"33\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 34,
+    "category": "Personal Agents",
+    "agent": "Account",
+    "title": "Account",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"34\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 35,
+    "category": "Personal Agents",
+    "agent": "Trust",
+    "title": "Trust",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"35\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 36,
+    "category": "Personal Agents",
+    "agent": "Health",
+    "title": "Health",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"36\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 37,
+    "category": "Personal Agents",
+    "agent": "Prayer Warrior",
+    "title": "Prayer Warrior",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"37\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 38,
+    "category": "Personal Agents",
+    "agent": "Writer",
+    "title": "Writer",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwcs",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"38\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 39,
+    "category": "Personal Agents",
+    "agent": "Course",
+    "title": "Course",
+    "primaryLink": "",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"39\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 40,
+    "category": "Personal Agents",
+    "agent": "Coach",
+    "title": "Coach",
+    "primaryLink": "https://entremotivator.com/agents/personal-agents/coach",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"40\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 41,
+    "category": "Unsupervised Agents",
+    "agent": "LinkedIn Leads",
+    "title": "LinkedIn Leads",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=lio-metrix&force=1",
+    "shortcodes": [
+      "[linkedin_metrix]"
+    ],
+    "tags": [
+      "linkedin_metrix"
+    ],
+    "primaryTag": "linkedin_metrix",
+    "tabs": [
+      {
+        "title": "LinkedIn Leads",
+        "tag": "linkedin_metrix",
+        "shortcode": "[linkedin_metrix]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 42,
+    "category": "Unsupervised Agents",
+    "agent": "Map Leads",
+    "title": "Map Leads",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=gmsap-search-panel",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"42\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 43,
+    "category": "Unsupervised Agents",
+    "agent": "Auto Drafter Email",
+    "title": "Auto Drafter Email",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aier-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"43\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 44,
+    "category": "Unsupervised Agents",
+    "agent": "Messenger Marketing",
+    "title": "Messenger Marketing",
+    "primaryLink": "https://entremotivator.com/agents/unsupervised-agents/messenger-marketing",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"44\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 45,
+    "category": "Unsupervised Agents",
+    "agent": "Email Marketing",
+    "title": "Email Marketing",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=mrm-admin",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"45\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 46,
+    "category": "Unsupervised Agents",
+    "agent": "Outbound Mass Email",
+    "title": "Outbound Mass Email",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aism",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"46\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 47,
+    "category": "Unsupervised Agents",
+    "agent": "Grant Finder",
+    "title": "Grant Finder",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=grants-api-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"47\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 48,
+    "category": "Unsupervised Agents",
+    "agent": "Funnel",
+    "title": "Funnel",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=wpfunnels",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"48\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 49,
+    "category": "Unsupervised Agents",
+    "agent": "AI Call Matrix",
+    "title": "AI Call Matrix",
+    "primaryLink": "http://aiagentms.com/wp-admin/admin.php?page=acm",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"49\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 50,
+    "category": "Unsupervised Agents",
+    "agent": "Trading",
+    "title": "Trading",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=kacc-dashboard#metrics",
+    "shortcodes": [
+      "[kacc_strategy_lab]"
+    ],
+    "tags": [
+      "kacc_strategy_lab"
+    ],
+    "primaryTag": "kacc_strategy_lab",
+    "tabs": [
+      {
+        "title": "Trading",
+        "tag": "kacc_strategy_lab",
+        "shortcode": "[kacc_strategy_lab]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 51,
+    "category": "Unsupervised Agents",
+    "agent": "WeatherGPT",
+    "title": "WeatherGPT",
+    "primaryLink": "",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"51\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 52,
+    "category": "Unsupervised Agents",
+    "agent": "Sales Closer",
+    "title": "Sales Closer",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aisc-sales-closer",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"52\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 53,
+    "category": "Operators",
+    "agent": "Future Proof",
+    "title": "Future Proof",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=fpaisr-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"53\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 54,
+    "category": "Content Creators",
+    "agent": "Video Studio",
+    "title": "Video Studio",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=wp-video-editor",
+    "shortcodes": [
+      "[wpve_video_dashboard]"
+    ],
+    "tags": [
+      "wpve_video_dashboard"
+    ],
+    "primaryTag": "wpve_video_dashboard",
+    "tabs": [
+      {
+        "title": "Video Studio",
+        "tag": "wpve_video_dashboard",
+        "shortcode": "[wpve_video_dashboard]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 55,
+    "category": "Content Creators",
+    "agent": "Mockup AI",
+    "title": "Mockup AI",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=ai-mockup-studio",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"55\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 56,
+    "category": "Managers",
+    "agent": "AI Mailer",
+    "title": "AI Mailer",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aism",
+    "shortcodes": [
+      "[aier_admin_dashboard]"
+    ],
+    "tags": [
+      "aier_admin_dashboard"
+    ],
+    "primaryTag": "aier_admin_dashboard",
+    "tabs": [
+      {
+        "title": "AI Mailer",
+        "tag": "aier_admin_dashboard",
+        "shortcode": "[aier_admin_dashboard]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 57,
+    "category": "Managers",
+    "agent": "Events",
+    "title": "Events",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=mec-intro",
+    "shortcodes": [
+      "[MEC_search_bar]",
+      "[MEC_fes_list]",
+      "[MEC_userevents]"
+    ],
+    "tags": [
+      "MEC_search_bar",
+      "MEC_fes_list",
+      "MEC_userevents"
+    ],
+    "primaryTag": "MEC_search_bar",
+    "tabs": [
+      {
+        "title": "Events",
+        "tag": "MEC_search_bar",
+        "shortcode": "[MEC_search_bar]"
+      },
+      {
+        "title": "Events Tab 2",
+        "tag": "MEC_fes_list",
+        "shortcode": "[MEC_fes_list]"
+      },
+      {
+        "title": "Events Tab 3",
+        "tag": "MEC_userevents",
+        "shortcode": "[MEC_userevents]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 58,
+    "category": "Operators",
+    "agent": "BrandGPT",
+    "title": "BrandGPT",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=brand-studio",
+    "shortcodes": [
+      "[bsp_app]"
+    ],
+    "tags": [
+      "bsp_app"
+    ],
+    "primaryTag": "bsp_app",
+    "tabs": [
+      {
+        "title": "BrandGPT",
+        "tag": "bsp_app",
+        "shortcode": "[bsp_app]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 59,
+    "category": "Content Creators",
+    "agent": "Whiteboard",
+    "title": "Whiteboard",
+    "primaryLink": "https://entremotivator.com/whiteboard/",
+    "shortcodes": [
+      "[whiteboard_canvas]"
+    ],
+    "tags": [
+      "whiteboard_canvas"
+    ],
+    "primaryTag": "whiteboard_canvas",
+    "tabs": [
+      {
+        "title": "Whiteboard",
+        "tag": "whiteboard_canvas",
+        "shortcode": "[whiteboard_canvas]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 60,
+    "category": "Personal Agents",
+    "agent": "Wealth GPT",
+    "title": "Wealth GPT",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwealthgpt",
+    "shortcodes": [
+      "[kacc_strategy_lab]"
+    ],
+    "tags": [
+      "kacc_strategy_lab"
+    ],
+    "primaryTag": "kacc_strategy_lab",
+    "tabs": [
+      {
+        "title": "Wealth GPT",
+        "tag": "kacc_strategy_lab",
+        "shortcode": "[kacc_strategy_lab]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 61,
+    "category": "Personal Agents",
+    "agent": "AI WealthGPT",
+    "title": "AI WealthGPT",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=aiwealthgpt",
+    "shortcodes": [
+      "[kacc_strategy_lab]"
+    ],
+    "tags": [
+      "kacc_strategy_lab"
+    ],
+    "primaryTag": "kacc_strategy_lab",
+    "tabs": [
+      {
+        "title": "AI WealthGPT",
+        "tag": "kacc_strategy_lab",
+        "shortcode": "[kacc_strategy_lab]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 62,
+    "category": "Operators",
+    "agent": "AI All Matrix",
+    "title": "AI All Matrix",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=mobile-agent-command-hub-pages",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"62\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 63,
+    "category": "Special Agents",
+    "agent": "Speaking GIGs",
+    "title": "Speaking GIGs",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=speakerhub",
+    "shortcodes": [
+      "[shp_speaker_directory]"
+    ],
+    "tags": [
+      "shp_speaker_directory"
+    ],
+    "primaryTag": "shp_speaker_directory",
+    "tabs": [
+      {
+        "title": "Speaking GIGs",
+        "tag": "shp_speaker_directory",
+        "shortcode": "[shp_speaker_directory]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 64,
+    "category": "Special Agents",
+    "agent": "Tax Credit",
+    "title": "Tax Credit",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=tcs-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"64\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 65,
+    "category": "Special Agents",
+    "agent": "Agent Manager",
+    "title": "Agent Manager",
+    "primaryLink": "http://aiagentms.com/wp-admin/admin.php?page=ai-agents-atm",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"65\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 66,
+    "category": "Special Agents",
+    "agent": "QANDDASH",
+    "title": "QANDDASH",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=rvip-dashboard",
+    "shortcodes": [
+      "[rvip_v40_phone_cta]",
+      "[rvip_v40_agent_phone_directory]"
+    ],
+    "tags": [
+      "rvip_v40_phone_cta",
+      "rvip_v40_agent_phone_directory"
+    ],
+    "primaryTag": "rvip_v40_phone_cta",
+    "tabs": [
+      {
+        "title": "QANDDASH",
+        "tag": "rvip_v40_phone_cta",
+        "shortcode": "[rvip_v40_phone_cta]"
+      },
+      {
+        "title": "QANDDASH Tab 2",
+        "tag": "rvip_v40_agent_phone_directory",
+        "shortcode": "[rvip_v40_agent_phone_directory]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  },
+  {
+    "no": 67,
+    "category": "Special Agents",
+    "agent": "Agent Directory",
+    "title": "Agent Directory",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=madp-dashboard",
+    "shortcodes": [],
+    "tags": [],
+    "primaryTag": "",
+    "tabs": [],
+    "dashboardShortcode": "[v0map_agent_dashboard agent_no=\"67\"]",
+    "dashboardTag": "v0map_agent_dashboard",
+    "shortcodeSource": "v0map-wrapper"
+  },
+  {
+    "no": 68,
+    "category": "Special Agents",
+    "agent": "Futurama",
+    "title": "Futurama",
+    "primaryLink": "https://entremotivator.com/wp-admin/admin.php?page=fai-shortcodes",
+    "shortcodes": [
+      "[futurama_ai_full_admin_dashboard]",
+      "[fai_dashboard]"
+    ],
+    "tags": [
+      "futurama_ai_full_admin_dashboard",
+      "fai_dashboard"
+    ],
+    "primaryTag": "futurama_ai_full_admin_dashboard",
+    "tabs": [
+      {
+        "title": "Futurama",
+        "tag": "futurama_ai_full_admin_dashboard",
+        "shortcode": "[futurama_ai_full_admin_dashboard]"
+      },
+      {
+        "title": "Futurama Tab 2",
+        "tag": "fai_dashboard",
+        "shortcode": "[fai_dashboard]"
+      }
+    ],
+    "dashboardShortcode": "",
+    "dashboardTag": "",
+    "shortcodeSource": "provided"
+  }
+] as AgentRosterItem[]
+
+export const EXACT_AGENT_COUNT = EXACT_AGENT_ROSTER.length

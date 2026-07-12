@@ -1,0 +1,64 @@
+ENHANCED VIRTUAL GALLERY - PROJECT FILES
+=========================================
+
+📁 Project Location: /home/ubuntu/v0map-main 2/
+
+🎯 KEY ENHANCEMENTS
+-------------------
+✅ 30 AI Agents (up from 10)
+✅ 27 Streamlit Apps (up from 10)
+✅ Ready Player Me Avatars
+✅ All features preserved
+✅ Port 8501 for all Streamlit apps
+
+📄 NEW FILES CREATED
+--------------------
+1. components/virtual-gallery-enhanced.tsx - Enhanced main component
+2. components/ready-player-me-config.ts - Avatar configuration
+3. components/virtual-gallery-original-backup.tsx - Original backup
+4. npc-config-30.ts - 30 NPC configuration file
+5. ENHANCED_README.md - Comprehensive documentation
+6. QUICKSTART.md - Quick start guide
+7. CHANGELOG.md - Version history
+8. DEPLOYMENT_SUMMARY.md - Deployment overview
+9. PROJECT_FILES.txt - This file
+
+📝 MODIFIED FILES
+-----------------
+1. components/virtual-gallery.tsx - Updated with 30 NPCs
+2. app/page.tsx - Fixed SSR compatibility
+
+🚀 HOW TO RUN
+-------------
+cd "v0map-main 2"
+pnpm install
+pnpm dev
+
+Open: http://localhost:3000
+
+🎮 QUICK CONTROLS
+-----------------
+- Click canvas to lock pointer
+- WASD / Arrows: Move
+- Mouse: Look around
+- F: Toggle flying mode
+- M: Open Streamlit menu
+- C: Open NPC controls
+- ESC: Close menus
+
+📊 STATISTICS
+-------------
+- Total NPCs: 30
+- Total Streamlit Apps: 27
+- Room Size: 100x100 units
+- Table Positions: 30
+- Avatar System: Ready Player Me
+- Build Status: ✅ Successful
+
+📦 ARCHIVE
+----------
+File: /home/ubuntu/v0map-enhanced-30-agents.tar.gz
+Size: 269MB
+Contents: Full project (excluding node_modules and .next)
+
+✨ STATUS: PRODUCTION READY
