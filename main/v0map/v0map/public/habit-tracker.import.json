@@ -1,0 +1,17 @@
+{
+  "name": "V0Map Daily Habit Tracker",
+  "version": "24.0",
+  "description": "Daily habits for WordPress API, voice command, NPC, and project management workflows.",
+  "habits": [
+    { "id": "habit-wp-ping", "name": "Run wp:ping or open /api/wp/ping", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-shortcode-window", "name": "Open one live shortcode window and check styling", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-dictation", "name": "Record one dictated project note", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-npc-command", "name": "Use one voice NPC movement command", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-project-room", "name": "Add or review one 3D city feature", "streak": 0, "target": 30, "doneToday": false },
+    { "id": "habit-team", "name": "Review imported NPC team assignment", "streak": 0, "target": 30, "doneToday": false }
+  ],
+  "tasks": [
+    { "id": "habit-task-review", "title": "Review habit tracker progress", "status": "todo", "priority": "normal" },
+    { "id": "habit-task-export", "title": "Export or copy project notes into WordPress/project docs", "status": "todo", "priority": "normal" }
+  ]
+}
