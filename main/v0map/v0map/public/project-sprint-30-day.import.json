@@ -1,0 +1,13 @@
+{
+  "version": "25.0.0",
+  "title": "30 Day WordPress 3D City Sprint",
+  "tasks": [
+    { "id": "sprint-day-01", "title": "Confirm wp:ping and [bsp_app] styled window", "status": "todo", "priority": "high" },
+    { "id": "sprint-day-02", "title": "Test voice command: NPC 1 come here", "status": "todo", "priority": "high" },
+    { "id": "sprint-day-03", "title": "Create one voice NPC and bind a live shortcode", "status": "todo", "priority": "normal" },
+    { "id": "sprint-day-04", "title": "Import 25 NPC team and verify unique shortcode windows", "status": "todo", "priority": "normal" },
+    { "id": "sprint-day-05", "title": "Use dictation mode to save project notes", "status": "todo", "priority": "normal" },
+    { "id": "sprint-day-06", "title": "Add automation lab and project board to the city", "status": "todo", "priority": "normal" },
+    { "id": "sprint-day-07", "title": "Export project board JSON backup", "status": "todo", "priority": "normal" }
+  ]
+}
